@@ -1,0 +1,28 @@
+h3{
+    text-transform: uppercase;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content-box-title-underline{
+    margin: 0 auto 30px auto;
+    width: 30px;
+    height: 3px;
+    background-color: red;
+}
+.content-box-title{
+    text-align: center;
+}
+.row.no-space [class*=col-]{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.img-rapper img:hover{
+    transform: scale(1.5)
+}
+.img-rapper{
+    overflow: hidden;
+}
+.img-rapper img{
+    transition: transform 0.5s ease-out;
+}
